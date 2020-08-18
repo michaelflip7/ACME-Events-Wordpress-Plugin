@@ -1,0 +1,40 @@
+/* Bootstrap Card + Carousel events layout */
+
+/* .slick-track{
+  display: flex;
+   align-items: stretch; 
+   justify-content: center;
+}
+.slick-slide{
+  height: auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;      
+} */
+i.prev-arrow, i.next-arrow{
+  position:absolute;
+  top:40%;
+  font-size:30px;
+  color:#fff;
+  z-index:9;
+  cursor:pointer;
+}
+.prev-arrow{
+  left:-25px;
+}
+.next-arrow{
+  right:-25px;
+}
+span.details{
+  display: block;
+  font-weight: bold;
+}
+/* .slick-track {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+ flex: 0 1 24%;
+} */
