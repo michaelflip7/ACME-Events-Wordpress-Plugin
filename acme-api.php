@@ -195,27 +195,8 @@ function acme_events_display($atts){
 <?php add_shortcode("acme_events", "acme_events_display");
 
 
-
-
-/*To do:
-1. templateId for live version (kids/adult and possibly others)
-(maybe). Jquery calendar + ajax
-*/
-
-//start="2020-07-25"
-//end="2021-07-25"
-//limit="50"
-//search="keyword"
-//display="slider" / "grid"
-//sort="asc" / "desc"
-//filter="on"
-//operator="and" / "or"
-//audience="kids" / "adults" / "teens" / "pre-school"
-//event="lecture" / "course" / "movie"
-
 //Example shortcode [acme_events limit="10" search="NDG" start="2020-07-25" end="2021-07-25" display="grid" sort="desc"]
 
 //Customer facing URL structure
-//https://sand1-buy.acmeticketing.net/events/10002/detail/5e6802c860309f3308ad7b58
 //https://sand1-buy.acmeticketing.net/events/[TENANT_ID]/detail/[EVENT_ID]]
 ?>
